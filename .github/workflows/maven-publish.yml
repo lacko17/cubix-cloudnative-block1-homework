@@ -74,4 +74,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run verify-image
-      - run: ./verify-image.sh
+        run: ./verify-image.sh
